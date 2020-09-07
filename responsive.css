@@ -1,0 +1,564 @@
+@media screen and (max-width: 1080px) {
+
+  .none-display-sp {
+    display: none;
+  }
+
+  /* navigation-bar */
+  .site-header {
+		background-color: #FFFFFF;
+		z-index: 2;
+  }
+
+  .header-nav-hamburger {
+    cursor: pointer;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 21px;
+    z-index: 100;
+  }
+
+  .hamburger-line {
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #222222;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+    transition: top .2s, transform .2s, opacity .3s;
+  }
+
+  .hamburger-line:first-child {
+    top: 0;
+  }
+
+  .hamburger-line:last-child {
+    top: 100%;
+  }
+
+  .navbar-list {
+    overflow-y: scroll;
+    position: fixed;
+    top: 60px;
+    left: 100%;
+    width: 100%;
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 75px;
+    transition: transform 0.5s;
+    z-index: 99;
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* main */
+  main {
+    padding-top: 60px;
+  }
+
+  /* 03 feature */
+  
+  /* 1豊富な転職実績 */
+
+  .offer-example-company > li {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* 2受講者実績 */
+  .outcome-data {
+    padding: 30px;
+  }
+
+  .outcome-list {
+    margin: 0 -30px;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .interview-list {
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 160px;
+    padding-right: 160px;
+  }
+  
+  .interview-list > li {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  .interview-list > li:nth-child(n+2) {
+    margin-top: 20px;
+    padding-top: 30px;
+    border-top: solid 1px #efefef;
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+  /* 01 topview */
+  .topview-notation {
+    top: -168px;
+    right: 0;
+    left: -28px;
+  }
+
+  .topview-inv > p {
+    padding: 4px
+  }
+
+  /* 02 about */
+  .about .content-size {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-text {
+    width: 100%;
+  }
+
+  .about-button {
+    margin-top: 40px;
+    width: 250px;
+  }
+
+  /* 05 サービスへの想い */
+  .message-title {
+    font-size: 32px;
+  }
+
+  .message-box {
+    flex-direction: column;
+    position: relative;
+    background-color: #fff;
+    padding: 45px 40px 40px;
+  }
+
+  .message-text {
+    padding: 0;
+    margin-right: 0;
+    margin-top: 30px;
+    order: 2;
+  }
+
+  .message-image {
+    order: 1;
+  }
+
+  .message-image > img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .interview-list { 
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+
+  .content-size {
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .header-main {
+    text-align: center;
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  .header-main > span {
+    letter-spacing: 1px;
+    font-size: 30px;
+  }
+
+  .header-sub {
+    font-size: 14px;
+  }
+
+  .none-display-sp {
+    display: none;
+  }
+
+  .section-content {
+    margin-top: 50px;
+  }
+
+  /* navigation-bar */
+	.site-header {
+		padding-top: 15px;
+		padding-bottom: 15px;
+  }
+  .header-logo-pc {
+    display: none;
+  }
+  .header-logo-smartphone {
+    display: inline-block;
+    width: auto;
+    height: 16px;
+  }
+
+  /* main */
+  main {
+    padding-top: 52px;
+  }
+
+  /* 01 topview */
+  .topview {
+    padding-top: 258px;
+    padding-bottom: 12px;
+    background-image: url(img/top-hero-sp.png);
+  }
+
+  .topview-box {
+    max-width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .topview-text {
+    font-size: 15px;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    margin-top: 20px;
+  }
+
+  .topview-button {
+    margin-top: 20px;
+  }
+
+  .topview-notation {
+    top: -123px;
+    left: -56px;
+  }
+
+  .topview-notation > img {
+    width: 120px;
+    height: 120px;
+  }
+
+  .topview-inv {
+    padding-top: 24px;
+  }
+
+  .topview-inv > p {
+    background-color: inherit;
+    color: inherit;
+  }
+
+  /* 02 about */
+
+  .about-text > h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .about-text > h2 > span {
+    font-size: 30px;
+  }
+
+  /* 03 feature */
+
+  .section-content {
+    margin-top: 50px;
+  }
+
+  .feature-list {
+    margin-top: 90px;
+  }
+  
+  .feature-item {
+    padding: 30px 20px 20px 20px;
+  }
+
+  .feature-number {
+    font-size: 30px;
+  }
+
+  .feature-title {
+    font-size: 20px;
+    margin-top: -10px;
+  }
+
+  .feature-text {
+    font-size: 15px;
+    text-align: start;
+    line-height: 2.2;
+  }
+
+  .feature-text > span {
+    font-size: 24px;
+  }
+
+
+  /* 1豊富な転職実績 */
+  .offer-example {
+    padding: 20px;
+  }
+
+  .offer-example-title {
+    font-size: 16px;
+  }
+
+  .offer-example-title > img {
+    margin-left: 5px;
+    width: 24px;
+  }
+
+  .offer-example-title::after {
+    margin-top: 5px;
+    border-bottom: solid 2px #f79314;
+  }
+
+  .offer-example-company > li {
+    width: 50%;
+    padding: 10px 5px;
+  }
+
+  /* 2受講者実績 */
+
+  .outcome-data {
+    padding: 20px;
+  }
+
+  .outcome-list {
+    flex-wrap: wrap;
+    margin: 0;
+  }
+
+  .outcome-list > li {
+    padding: 0;
+  }
+
+  .outcome-list > li:first-child {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .outcome-list > li:nth-child(n+2) {
+    width: 45%;
+    margin-top: 30px;
+  }
+
+  /* 3現役エンジニア */
+
+  .prev-btn {
+    display: inline-block;
+  }
+
+  .next-btn {
+    display: inline-block;
+  }
+
+  .slide {
+    display: none;
+  }
+  
+  .active {
+    display: block;
+    width: 100%;
+  }
+
+  .none-display-pc {
+    display: flex;
+  }
+
+  /* 04 POTEPAN CAMP course */
+
+  .course .section-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .course .course-list {
+    padding: 0 20px;
+  }
+
+  .course-title {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    height: 120px;
+    margin-top: -40px;
+  }
+
+  .course-example {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .course-name {
+    font-size: 20px;
+  }
+
+  .career {
+    font-size: 12px;
+  }
+
+  .course-explanation {
+    width: 100%;
+    margin-top: 25px;
+    padding-right: 0;
+  }
+
+  .course-text {
+    line-height: 1.5;
+  }
+
+  .course-condition {
+    margin-top: 25px;
+  }
+
+  .course-link {
+    width: 100%;
+    margin-top: 15px;
+    padding-bottom: 0;
+  }
+
+  .course-arrow {
+    position: static;
+    text-align: right;
+    margin-top: 25px;
+    padding-right: 20px;
+  }
+
+  .course-arrow:after {
+    right: 0;
+  }
+
+  /* 05 サービスへの想い */
+
+  .message {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  /* 07 POTEPANのサービス */
+
+  .sevice {
+    padding: 60px 0;
+  }
+
+  .service .content-size::before {
+    content: '';
+    position: absolute;
+    left: 60%;
+    display: block;
+    width: 130px;
+    height: 130px;
+    background-image: url(/img/bg-section-top-course.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
+
+  .service .content-size {
+    background: none;
+    padding-top: 0;
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .effective-sp {
+    display: block;
+  }
+
+  .service .section-content {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .service-list {
+    flex-direction: column;
+  }
+
+  .service-list > li {
+    width: 100%;
+  }
+
+  .service-list > li:nth-child(n+2) {
+    margin-top: 40px;
+  }
+
+  .service-box {
+    justify-content: center;
+  }
+  
+  .service-logo {
+    max-width: 280px;
+  }
+
+  .service-text {
+    font-size: 15px;
+  }
+
+  /* footer */
+  .site-footer {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+
+  .site-footer .content-size {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-top-button {
+    right: 20px;
+    top: -85px;
+  }
+
+  .footer-nav {
+    text-align: left;
+    margin-left: 20px;
+  }
+
+  .footer-image {
+    margin-top: 50px;
+  }
+
+  .footer-address {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #FFFFFF;
+  }
+
+  .footer-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-company-name {
+    text-align: center;
+  }
+
+  .footer-company-address {
+    text-align: center;
+  }
+
+  .footer-social-media {
+    justify-content: center;
+  }
+
+  .footer-bottom {
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+}
+
+
+
